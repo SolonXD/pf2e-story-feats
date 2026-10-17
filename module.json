@@ -1,0 +1,28 @@
+{
+  "id": "pf2e-story-feats",
+  "title": "PF2e — Сюжетные способности",
+  "description": "Включает встроенный раздел способностей кампании PF2e и отображает его как «Сюжетные способности». Использует штатное перетаскивание и хранение способностей.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "maximum": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "8.6.1"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "readme": "README.md",
+  "url": "https://github.com/SolonXD/pf2e-story-feats",
+  "manifest": "https://github.com/SolonXD/pf2e-story-feats/releases/latest/download/module.json",
+  "download": "https://github.com/SolonXD/pf2e-story-feats/releases/download/v1.0.0/pf2e-story-feats.zip"
+}
